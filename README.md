@@ -15,10 +15,10 @@ convolutional neural networks. Here's an example that maps the artistic style of
 onto a night-time photograph of the Stanford campus:
 
 <div align="center">
- <img src="https://raw.githubusercontent.com/DarekGit/neural-style-pt/master/examples/inputs/ZD_portret.jpg" height="223px">
+ <img src="https://raw.githubusercontent.com/DarekGit/neural_style/master/examples/inputs/ZD_portret.jpg" height="300px">
 
- <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/DD.jpg" height="223px">
- <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/DD.jpg" width="710px">
+ <img src="https://raw.githubusercontent.com/DarekGit/neural_style/master/examples/inputs/DD.jpg" height="300px">
+ <img src="https://raw.githubusercontent.com/DarekGit/neural_style/master/examples/outputs/DD.jpg" height="600px">
 </div>
 
 <div align="center">
