@@ -9,17 +9,16 @@ Set of parameters was created in the module for easy usage as well auto manager 
 
 To start you can download [notebook](neural_style.ipynb)
 
+<div align="center">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/ZD_portret.jpg" height="250px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/DD.jpg" height="250px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/DD.jpg" height="500px">
+</div>
+
 The paper presents an algorithm for combining the content of one image with the style of another image using
 convolutional neural networks. Here's an example that maps the artistic style of
 [The Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
 onto a night-time photograph of the Stanford campus:
-
-<div align="center">
- <img src="https://raw.githubusercontent.com/DarekGit/neural_style/master/examples/inputs/ZD_portret.jpg" height="300px">
-
- <img src="https://raw.githubusercontent.com/DarekGit/neural_style/master/examples/inputs/DD.jpg" height="300px">
- <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/DD.jpg" height="600px">
-</div>
 
 <div align="center">
  <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/starry_night_google.jpg" height="223px">
