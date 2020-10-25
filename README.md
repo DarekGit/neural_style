@@ -166,7 +166,7 @@ Optional dependencies:
 You can observe progress of transformation in Colab notebook as well results are recoded in Outputs directory toghether with configuration file.
 
 <div align="center">
-<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_Figs_000004.jpg" width="500px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_Figs_000004.jpg" width="1000px">
 <img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_000004.jpg" height="200px">
 </div>
 
