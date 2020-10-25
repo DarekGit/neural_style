@@ -4,8 +4,8 @@ This is Colab notebook implementation based on [ProGamerGov](https://github.com/
 following paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576)
 by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. The code is based on Justin Johnson's [Neural-Style](https://github.com/jcjohnson/neural-style).
 
-All codes were adopted to perform easly in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
-Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress and modified images.
+The code was adopted to perform easly in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
+Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress of modified images.
 
 To start you can download [notebook](neural_style.ipynb)
 
@@ -14,6 +14,13 @@ To start you can download [notebook](neural_style.ipynb)
  <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/DD.jpg" height="300px">
  <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/DD.jpg" height="300px">
 </div>
+
+<div align="center">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/frida_kahlo.jpg" height="300px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/Z.jpg" height="300px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/Zfrid.jpg" height="300px">
+</div>
+
 
 The paper presents an algorithm for combining the content of one image with the style of another image using
 convolutional neural networks. Here's an example that maps the artistic style of
