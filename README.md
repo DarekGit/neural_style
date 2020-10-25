@@ -7,6 +7,8 @@ by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. The code is based on 
 The code was adopted to perform easy in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
 Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress of modified images.
 
+There was chosen best fitted models to human perception. Other Google model adaptations you can find on https://github.com/rdcolema/deepdream-neural-style-transfer.
+
 To start you can download [notebook](neural_style.ipynb).
 
 <div align="center">
