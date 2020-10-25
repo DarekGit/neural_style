@@ -7,7 +7,7 @@ by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. The code is based on 
 The code was adopted to perform easly in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
 Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress of modified images.
 
-To start you can download [notebook](neural_style.ipynb)
+To start you can download [notebook](neural_style.ipynb).
 
 <div align="center">
  <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/ZD_face.jpg" height="300px">
@@ -21,16 +21,16 @@ To start you can download [notebook](neural_style.ipynb)
  <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/Zfrid.jpg" height="300px">
 </div>
 
-
+<br>
 The paper presents an algorithm for combining the content of one image with the style of another image using
 convolutional neural networks. Here's an example that maps the artistic style of
 [The Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
 onto a night-time photograph of the Stanford campus:
 
 <div align="center">
- <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/starry_night_google.jpg" height="223px">
- <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/hoovertowernight.jpg" height="223px">
- <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/starry_stanford_bigger.png" width="710px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/starry_night_google.jpg" height="223px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/hoovertowernight.jpg" height="223px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/starry_stanford_bigger.png" width="710px">
 </div>
 
 Applying the style of different images to the same content image gives interesting results.
@@ -38,14 +38,14 @@ Here we reproduce Figure 2 from the paper, which renders a photograph of the Tub
 variety of styles:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/tubingen.jpg" height="250px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/tubingen_shipwreck.png" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/tubingen.jpg" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/tubingen_shipwreck.png" height="250px">
 
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/tubingen_starry.png" height="250px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/tubingen_scream.png" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/tubingen_starry.png" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/tubingen_scream.png" height="250px">
 
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/tubingen_seated_nude.png" height="250px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/tubingen_composition_vii.png" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/tubingen_seated_nude.png" height="250px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/tubingen_composition_vii.png" height="250px">
 </div>
 
 Here are the results of applying the style of various pieces of artwork to this photograph of the
@@ -53,26 +53,26 @@ golden gate bridge:
 
 
 <div align="center"
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/golden_gate.jpg" height="200px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/golden_gate.jpg" height="200px">
 
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/frida_kahlo.jpg" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_kahlo.png" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/escher_sphere.jpg" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_escher.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/frida_kahlo.jpg" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_kahlo.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/escher_sphere.jpg" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_escher.png" height="160px">
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/woman-with-hat-matisse.jpg" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_matisse.png" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/the_scream.jpg" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_scream.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/woman-with-hat-matisse.jpg" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_matisse.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/the_scream.jpg" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_scream.png" height="160px">
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/starry_night_crop.png" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_starry.png" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/seated-nude.jpg" height="160px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/golden_gate_seated.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/starry_night_crop.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_starry.png" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/seated-nude.jpg" height="160px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/golden_gate_seated.png" height="160px">
 </div>
 
 ### Content / Style Tradeoff
@@ -81,15 +81,15 @@ The algorithm allows the user to trade-off the relative weight of the style and 
 as shown in this example where we port the style of [Picasso's 1907 self-portrait](http://www.wikiart.org/en/pablo-picasso/self-portrait-1907) onto Brad Pitt:
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/picasso_selfport1907.jpg" height="220px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/brad_pitt.jpg" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/picasso_selfport1907.jpg" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/brad_pitt.jpg" height="220px">
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/pitt_picasso_content_5_style_100.png" height="220px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/pitt_picasso_content_1_style_100.png" height="220px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/pitt_picasso_content_01_style_100.png" height="220px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/pitt_picasso_content_0025_style_100.png" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/pitt_picasso_content_5_style_100.png" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/pitt_picasso_content_1_style_100.png" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/pitt_picasso_content_01_style_100.png" height="220px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/pitt_picasso_content_0025_style_100.png" height="220px">
 </div>
 
 ### Style Scale
