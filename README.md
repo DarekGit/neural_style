@@ -10,9 +10,9 @@ Set of parameters was created in the module for easy usage as well auto manager 
 To start you can download [notebook](neural_style.ipynb)
 
 <div align="center">
- <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/ZD_portret.jpg" height="250px">
- <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/DD.jpg" height="250px">
- <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/DD.jpg" height="500px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/ZD_face.jpg" height="300px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/inputs/DD.jpg" height="300px">
+ <img src="https://github.com/DarekGit/neural_style/blob/main/examples/outputs/DD.jpg" height="300px">
 </div>
 
 The paper presents an algorithm for combining the content of one image with the style of another image using
