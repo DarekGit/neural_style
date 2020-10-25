@@ -1,12 +1,25 @@
-# neural-style-pt
+# neural_style
 
-This is a PyTorch implementation of the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576)
+This is Colab notebook implementation based on [ProGamerGov](https://github.com/ProGamerGov/neural-style-pt)
+following paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576)
 by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. The code is based on Justin Johnson's [Neural-Style](https://github.com/jcjohnson/neural-style).
+
+All codes were adopted to perform easly in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
+Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress and modified images.
+
+To start you can download [notebook](neural_style.ipynb)
 
 The paper presents an algorithm for combining the content of one image with the style of another image using
 convolutional neural networks. Here's an example that maps the artistic style of
 [The Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
 onto a night-time photograph of the Stanford campus:
+
+<div align="center">
+ <img src="https://raw.githubusercontent.com/DarekGit/neural-style-pt/master/examples/inputs/ZD_portret.jpg" height="223px">
+
+ <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/DD.jpg" height="223px">
+ <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/DD.jpg" width="710px">
+</div>
 
 <div align="center">
  <img src="https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/inputs/starry_night_google.jpg" height="223px">
