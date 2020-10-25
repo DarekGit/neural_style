@@ -4,7 +4,7 @@ This is Colab notebook implementation based on [ProGamerGov](https://github.com/
 following paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576)
 by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. The code is based on Justin Johnson's [Neural-Style](https://github.com/jcjohnson/neural-style).
 
-The code was adopted to perform easly in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
+The code was adopted to perform easy in  Colab framework. Weight normalization was fixed and implemented in Losses backwards.
 Set of parameters was created in the module for easy usage as well auto manager of results directories helps to compare progress of modified images.
 
 To start you can download [notebook](neural_style.ipynb).
@@ -163,22 +163,16 @@ Optional dependencies:
 
 
 ## Usage
-Basic usage:
-```
-python neural_style.py -style_image <image.jpg> -content_image <image.jpg>
-```
+You can observe progress of transformation in Colab notebook as well results are recoded in Outputs directory toghether with configuration file.
 
-cuDNN usage with NIN Model:
-```
-python neural_style.py -style_image examples/inputs/picasso_selfport1907.jpg -content_image examples/inputs/brad_pitt.jpg -output_image profile.png -model_file models/nin_imagenet.pth -gpu 0 -backend cudnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 500 -image_size 512 -optimizer adam
-```
-
-![cuDNN NIN Model Picasso Brad Pitt](https://raw.githubusercontent.com/ProGamerGov/neural-style-pt/master/examples/outputs/pitt_picasso_nin_cudnn.png)
-
+<div align="center">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_Figs_000004.jpg" width="500px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_000004.jpg" height="200px">
+</div>
 
 To use multiple style images, pass a comma-separated list like this:
 
-`-style_image starry_night.jpg,the_scream.jpg`.
+`params.style_image = "starry_night.jpg,the_scream.jpg"`.
 
 Note that paths to images should not contain the `~` character to represent your home directory; you should instead use a relative
 path or a full absolute path.
