@@ -163,13 +163,14 @@ Optional dependencies:
 
 
 ## Usage
-You can observe progress of transformation in Colab notebook as well results are recoded in Outputs directory toghether with configuration file.
+You can observe progress of transformation in Colab notebook as well results are recoded in Outputs directory together with configuration file.
 
 <div align="center">
-<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_Figs_000004.jpg" width="1000px">
-<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_000004.jpg" height="200px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_Figs_000004.jpg" width="1500px">
+<img src="https://github.com/DarekGit/neural_style/blob/main/examples/configs/OUT_000004.jpg" height="500px">
 </div>
 
+<br><br>
 To use multiple style images, pass a comma-separated list like this:
 
 `params.style_image = "starry_night.jpg,the_scream.jpg"`.
